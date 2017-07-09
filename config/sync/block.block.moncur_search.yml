@@ -1,0 +1,22 @@
+uuid: 57bd7a00-414f-4374-85b1-abf6927e94f6
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - moncur
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: moncur_search
+theme: moncur
+region: navigation
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

@@ -1,0 +1,15 @@
+{#
+/**
+ * @file
+ * Hero block type twig.
+ */
+#}
+
+
+<div class="hero" style="background:url({{ content.field_hero_image[0]['#markup'] }}) top center no-repeat; background-size:cover!important;">
+    <div class="container">
+        <div class="row">
+            <h1>{{ content.body[0]['#text']|striptags }}</h1>
+        </div>
+    </div>
+</div>

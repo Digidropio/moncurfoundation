@@ -1,0 +1,12 @@
+# CSS
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      css/style.css: {}
+  js:
+    js/navigation.js: {}
+fonts:
+  css:
+    theme:
+      '//fonts.googleapis.com/css?family=Khula:regular,bold': { type: external, minified: true }

@@ -1,0 +1,25 @@
+uuid: 61bdb3a2-be67-4008-9c36-3a4c44502c3d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:08bd62d5-2bff-419c-b8ac-08e012bea176'
+  module:
+    - block_content
+  theme:
+    - moncur
+id: copyright
+theme: moncur
+region: footer_left
+weight: -8
+provider: null
+plugin: 'block_content:08bd62d5-2bff-419c-b8ac-08e012bea176'
+settings:
+  id: 'block_content:08bd62d5-2bff-419c-b8ac-08e012bea176'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

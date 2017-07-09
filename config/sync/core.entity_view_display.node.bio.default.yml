@@ -1,0 +1,35 @@
+uuid: 71957e56-9431-43eb-b255-822263845c32
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.bio.body
+    - field.field.node.bio.field_photo
+    - node.type.bio
+  module:
+    - image
+    - text
+    - user
+id: node.bio.default
+targetEntityType: node
+bundle: bio
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_photo:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  links: true

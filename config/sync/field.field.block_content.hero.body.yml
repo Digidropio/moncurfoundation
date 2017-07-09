@@ -1,0 +1,22 @@
+uuid: c17cbf9c-f0eb-42ac-be94-161443534d20
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.hero.body
+field_name: body
+entity_type: block_content
+bundle: hero
+label: 'Hero content'
+description: 'Text that appears over hero image'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

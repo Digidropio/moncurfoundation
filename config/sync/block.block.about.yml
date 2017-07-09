@@ -1,0 +1,31 @@
+uuid: 5d159c30-4c66-43e0-a8d7-ff412309d4d8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:hero:063895c4-2c44-43e3-bc8d-20b768f48055'
+  module:
+    - block_content
+    - system
+  theme:
+    - moncur
+id: about
+theme: moncur
+region: hero
+weight: 0
+provider: null
+plugin: 'block_content:063895c4-2c44-43e3-bc8d-20b768f48055'
+settings:
+  id: 'block_content:063895c4-2c44-43e3-bc8d-20b768f48055'
+  label: About
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /about
+    negate: false
+    context_mapping: {  }

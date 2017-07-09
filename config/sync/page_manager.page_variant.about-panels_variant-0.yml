@@ -1,0 +1,41 @@
+uuid: cdc1eee7-739d-4e26-9a53-b47033560ddb
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.about
+    - views.view.bio
+  module:
+    - panels
+    - views
+id: about-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    2bd0b4b2-8076-4676-84ed-a1086c4d2ad9:
+      id: 'views_block:bio-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 0
+      uuid: 2bd0b4b2-8076-4676-84ed-a1086c4d2ad9
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 06a094d2-431d-4130-b55e-e05e2f9d3786
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: 'About us'
+  storage_type: page_manager
+  storage_id: about-panels_variant-0
+  builder: standard
+page: about
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

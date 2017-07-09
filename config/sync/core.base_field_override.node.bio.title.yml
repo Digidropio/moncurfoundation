@@ -1,0 +1,18 @@
+uuid: f3c367ef-bf5c-4a2d-8578-3f2c20a78d13
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.bio
+id: node.bio.title
+field_name: title
+entity_type: node
+bundle: bio
+label: 'Person name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

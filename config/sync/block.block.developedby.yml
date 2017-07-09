@@ -1,0 +1,25 @@
+uuid: 585788e1-4fb2-4165-a57e-4bcf2fb5b46a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:09427724-6bab-4073-a91b-60e2b59ea2b9'
+  module:
+    - block_content
+  theme:
+    - moncur
+id: developedby
+theme: moncur
+region: footer_right
+weight: -7
+provider: null
+plugin: 'block_content:09427724-6bab-4073-a91b-60e2b59ea2b9'
+settings:
+  id: 'block_content:09427724-6bab-4073-a91b-60e2b59ea2b9'
+  label: 'Developed by'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

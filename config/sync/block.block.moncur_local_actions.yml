@@ -1,0 +1,20 @@
+uuid: 4f12290e-ed7d-4a5c-9c41-a61485de9ff7
+langcode: en
+status: true
+dependencies:
+  theme:
+    - moncur
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: moncur_local_actions
+theme: moncur
+region: content
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

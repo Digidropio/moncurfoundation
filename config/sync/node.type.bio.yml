@@ -1,0 +1,17 @@
+uuid: af158567-c4f7-4742-8fad-b546fecd1dca
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Bio
+type: bio
+description: 'Bios of shareholders'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
